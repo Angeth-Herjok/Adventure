@@ -1,0 +1,131 @@
+body{
+
+}
+.head{
+    background-image: url("mount.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-position: bottom;
+    color: beige;
+}
+ul{
+    display: flex;
+    margin-left: 40%;
+    justify-content: space-between;
+    color: beige;
+    list-style: none;
+    /* text-decoration: none */
+
+}
+li a{
+    list-style: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: beige;
+}
+.logo{
+    text-transform: uppercase;
+}
+.button1{
+    border-radius: 25px;
+    padding: 5px 18px;
+    color: beige;
+    background-color: red;
+}
+.nav1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+.nav2{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav3{
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+button{
+    border-radius: 25px;
+    background-color: crimson;
+    color: beige;
+    padding: 15px 28px;
+    margin-left: 5%;
+}
+.line{
+    width: 150px;
+    height: 5px;
+    background-color: crimson;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+.page2-head{
+    margin-left: 50%;
+}
+.head-coontent{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.content1{
+    margin-left: 40%; 
+}
+.image{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+img{
+    width: 75%;
+    height: 50%;
+    padding: 2px;
+}
+.paragraph{
+    display: flex;
+    padding: 40px;
+    margin-left: 35%;
+}
+.image2{
+    background-image: url("mat.jpg");
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 80vh;
+}
+.content4{
+    display: flex;
+    margin-top: 10%;
+}
+.image3{
+    display: flex;
+    margin-left: 10%;
+}
+.head5{
+    text-transform: uppercase;
+}
+.paragraph2{
+    font-size: large;
+}
+.footer1{
+    width: 80%;
+    height: 100px;
+    padding: 20px 70px;
+    margin: 5%;
+    background-color: #2e5984;
+    text-align: center;
+    color: whitesmoke;
+}
+footer{
+    background: linear-gradient(
+      to bottom,
+      #2e5984 0%,
+      #2e5984 80%,
+      black 50%,
+      black 100%
+    );
+    height: 100vh;
+}
+
+
