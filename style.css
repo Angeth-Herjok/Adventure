@@ -33,6 +33,9 @@ li a{
     color: beige;
     background-color: red;
 }
+.logoR{
+    font-size: x-large;
+}
 .nav1{
     align-items: center;
     justify-content: center;
@@ -126,6 +129,57 @@ footer{
       black 100%
     );
     height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+
+  /* Header */
+  .head {
+    width: 100%;
+  }
+
+  /* Nav bar */
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Nav items */
+  .nav li {
+    margin-bottom: 10px;
+  }
+
+  /* Home button */
+  .button1 {
+    width: 100%;
+  }
+
+  /* Navbar text */
+  .logo, .nav2, .nav3 {
+    font-size: 16px;
+  }
+
+  /* Content */
+  .content1, .content4 {
+    width: 100%;
+  }
+
+  /* Image */
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Footer */
+  .footer1 {
+    text-align: center;
+  }
+
+  /* Footer text */
+  .footer1 p {
+    font-size: 12px;
+  }
+
 }
 
 
